@@ -22,7 +22,7 @@
     <!------------------------------------------------------------------->
 
     <!-- favicon___________________--------------------- -->
-     <link rel="shortcut icon" href="./assets/images/TURO-favicon.png" type="image/png">
+    <link rel="shortcut icon" href="./assets/images/TURO-favicon.png" type="image/png">
 </head>
 
 <body>
@@ -37,9 +37,11 @@
             </div>
 
             <div class="flex justify-between items-center px-2 ">
-                <button class="cursor-pointer border border-[gray] py-1 px-3 text-[0.7rem] text-[#414143] font-bold rounded-[5px]">Why
+                <button
+                    class="cursor-pointer border border-[gray] py-1 px-3 text-[0.7rem] text-[#414143] font-bold rounded-[5px]">Why
                     choose Turo</button>
-                <div class="ml-2 flex justify-around items-center hover:cursor-pointer hover:bg-[#f2f2f1] rounded-[5px] w-[70px] px-2 py-1">
+                <div
+                    class="ml-2 flex justify-around items-center hover:cursor-pointer hover:bg-[#f2f2f1] rounded-[5px] w-[70px] px-2 py-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="lucide lucide-menu-icon lucide-menu">
@@ -61,7 +63,103 @@
     </header>
     <!-- header ended -->
 
+    <!-- main started  -->
+    <main class="font-sans w-[1100px] mx-auto flex flex-col justify-center items-center">
 
+        <!-- Hero section started  -->
+        <section
+            class="mt-[100px] w-[1100px] h-[312px] rounded-[20px] bg-[url('https://turo.com/_next/static/images/6195b434eae19f77d731231286b722b9.webp')] bg-cover bg-center bg-no-repeat relative text-white flex flex-col justify-center items-center py-[48px] px-[24px]">
+            <div class="my-5 w-full h-full text-center">
+                <h1 class="text-[2rem] inline-block">Skip the rental car country</h1>
+                <p>Rent about just any car, just about anywhere</p>
+                <!-- div is here _______________--------------  -->
+
+                <div class="w-[85%] mt-6 mx-auto px-4">
+                    <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
+                        <div class="flex flex-col lg:flex-row divide-y lg:divide-y-0 lg:divide-x divide-gray-200 h-14">
+
+                            <!-- Where -->
+                            <div
+                                class="flex-1 flex flex-col justify-center items-start px-5 hover:bg-gray-50 transition">
+                                <label class="text-xs font-semibold text-gray-500 mb-1">Where</label>
+                                <input type="text" placeholder="City, airport, address or hotel"
+                                    class="w-full border-0 outline-0 text-sm text-gray-700 placeholder-gray-400">
+                            </div>
+
+                            <!-- From -->
+                            <div class="flex-1 flex flex-col justify-center px-5 hover:bg-gray-50 transition">
+                                <div class="flex flex-col justify-center items-start">
+                                    <label class="text-xs font-semibold text-gray-500 mb-1  ">From</label>
+                                    <div class="flex items-center gap-4">
+                                        <!-- Add date -->
+                                        <div class="flex items-center gap-2 flex-1">
+                                            <input type="text" placeholder="Add date"
+                                                class="w-full border-0 outline-none text-sm font-medium text-gray-800 placeholder-gray-500 bg-transparent">
+                                            <i class="fa-solid fa-angle-down text-gray-500 text-sm"></i>
+                                        </div>
+
+                                        <!-- Add time -->
+                                        <div class="flex items-center gap-2 flex-1">
+                                            <input type="text" placeholder="Add time"
+                                                class="w-full border-0 outline-none text-sm font-medium text-gray-800 placeholder-gray-500 bg-transparent">
+                                            <i class="fa-solid fa-angle-down text-gray-500 text-sm"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Until -->
+                            <div class="flex-1 flex flex-col justify-center px-5 hover:bg-gray-50 transition">
+                                <div class="flex flex-col justify-center items-start">
+                                    <label class="text-xs font-semibold text-gray-500 mb-1  ">Until</label>
+                                    <div class="flex items-center gap-4">
+                                        <!-- Add date -->
+                                        <div class="flex items-center gap-2 flex-1">
+                                            <input type="text" placeholder="Add date"
+                                                class="w-full border-0 outline-none text-sm font-medium text-gray-800 placeholder-gray-500 bg-transparent">
+                                            <i class="fa-solid fa-angle-down text-gray-500 text-sm"></i>
+                                        </div>
+
+                                        <!-- Add time -->
+                                        <div class="flex items-center gap-2 flex-1">
+                                            <input type="text" placeholder="Add time"
+                                                class="w-full border-0 outline-none text-sm font-medium text-gray-800 placeholder-gray-500 bg-transparent">
+                                            <i class="fa-solid fa-angle-down text-gray-500 text-sm"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Search Button -->
+                            <div class="flex items-center justify-center px-4">
+                                <button class="bg-[#5d5ce8] hover:bg-[#4c4bd1] active:scale-95 transition-all duration-200 
+                        w-12 h-12 rounded-[10px] shadow-lg flex items-center justify-center">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2.5"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero section ended  -->
+
+
+
+
+    </main>
+    <!-- main ended  -->
+
+    <!-- footer started  -->
+    <footer>
+
+    </footer>
+    <!-- footer ended  -->
 
 
 </body>
